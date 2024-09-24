@@ -200,6 +200,6 @@ Vemos que se ejecuten correctamente:
 
 ### 6- DesarrolloPresentación del trabajo práctico
 
-El proyeto se encuentra en la misma carpeta TP6 y en el siguiente repositorio de GitHub:
+El proyeto se encuentra en el siguiente repositorio de GitHub:
 
 https://github.com/SantyQ02/Angular_WebAPINetCore8_CRUD_Sample.git
