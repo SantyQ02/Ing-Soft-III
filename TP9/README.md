@@ -101,3 +101,25 @@ https://dev.azure.com/santyq02/Angular_crud_webapi/_build/results?buildId=134&vi
   #### Link del Pipeline Integrador
 
   https://dev.azure.com/santyq02/Angular_crud_webapi/_build/results?buildId=159&view=results
+
+
+  ##### Verificamos que si fallan las pruebas de integracion o unitarias, de todas maneras se tiene que generar el reporte de las pruebas y no continuar el pipeline
+
+  Modificamos una prueba unitaria de back para que falle:
+
+  <img src="./images/image-26.png" width="500"/>
+
+  <img src="./images/image-27.png" width="500"/>
+
+  Modificamos una prueba unitaria de front para que falle:
+
+  <img src="./images/image-28.png" width="500"/>
+
+  <img src="./images/image-29.png" width="500"/>
+
+  Modificamos las pruebas de integración para que fallen:
+
+  <img src="./images/image-30.png" width="500"/>
+
+  <img src="./images/image-31.png" width="500"/>
+
