@@ -6,11 +6,15 @@
 
 ##### 4.1.1 Agregar a nuestro pipeline una nueva etapa que dependa de nuestra etapa de Construcción y Pruebas y de la etapa de Construcción de Imagenes Docker y subida a ACR realizada en el TP08
 
+Creamos el App Service Plan:
+
 <img src="./images/image.png" width="500"/>
 
 <img src="./images/image-1.png" width="500"/>
 
 <img src="./images/image-2.png" width="500"/>
+
+Agregamos la etapa al pipeline y vemos que ejecute correctamente:
 
 <img src="./images/image-3.png" width="500"/>
 
@@ -76,11 +80,17 @@ https://dev.azure.com/santyq02/Angular_crud_webapi/_build/results?buildId=134&vi
   - H) Deploy Back y Front en PROD para ACI
   - I) Deploy Back y Front en PROD para Azure Web Apps con Soporte para contenedores
 
+  Ejecutamos el pipeline y vemos que nos pide aprobación:
+
   <img src="./images/image-23.png" width="500"/>
 
   <img src="./images/image-24.png" width="500"/>
 
   <img src="./images/image-19.png" width="500"/>
+
+  Verificamos que estén todas las instancias y que funcionen correctamente:
+
+  <img src="./images/image-25.png" width="500"/>
 
   <img src="./images/image-20.png" width="500"/>
 
